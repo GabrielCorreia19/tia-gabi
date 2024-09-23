@@ -2,6 +2,21 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
+}
+
+header::before {
+    content: '';
+    display: inline-block;
+    background-image: url('/portifolio_profissional/assets/img/icons/header.svg');
+    background-repeat: no-repeat;
+    background-size: contain;   
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    top: 1rem;
+    right: 1rem;
+    cursor: pointer;
 }
 
 .photo{
@@ -41,16 +56,34 @@ header {
 }
 
 .information .job::before {
-    background-image: url('/assets/img/icons/job.svg');
+    background-image: url('/portifolio_profissional/assets/img/icons/job.svg');
 }
 
 .information .location::before {
-    background-image: url('/assets/img/icons/location.svg');
+    background-image: url('/portifolio_profissional/assets/img/icons/location.svg');
 }
 .information .phone::before {
-    background-image: url('/assets/img/icons/phone.svg');
+    background-image: url('/portifolio_profissional/assets/img/icons/phone.svg');
 }
 .information .email::before {
-    background-image: url('/assets/img/icons/email.svg');
+    background-image: url('/portifolio_profissional/assets/img/icons/email.svg');
 }
 
+@media (min-width: 768px) {
+    header {
+       display: grid;
+       grid-template-areas: "photo title" "photo information";
+    }
+    header .photo {
+        grid-area: photo;
+        margin: 0 auto;
+    }
+    header .title {
+        grid-area: title;
+        text-align: start;
+        max-width: 220px;
+    }
+    header .information {
+        grid-area: information;
+    }
+}
