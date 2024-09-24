@@ -8,6 +8,15 @@ body {
     color: #fff;
 }
 
+ a {
+    color: #fff;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
 @font-face {
     font-family: 'neue machina';
     src: url('../fonts/NeueMachina-Regular.otf');

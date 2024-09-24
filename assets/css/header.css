@@ -65,6 +65,7 @@ header::before {
 .information .phone::before {
     background-image: url('/portifolio_profissional/assets/img/icons/phone.svg');
 }
+
 .information .email::before {
     background-image: url('/portifolio_profissional/assets/img/icons/email.svg');
 }
