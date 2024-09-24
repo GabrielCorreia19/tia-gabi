@@ -45,13 +45,13 @@
   ],
   "portfolio": [
     {
-      "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
-      "url": "https://github.com/RenanJPaula/js-developer-pokedex",
+      "name": "Site Decisão Brasil",
+      "url": "https://decisaobrasil.com.br/",
       "github": true
     },
     {
-      "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-      "url": "https://github.com/RenanJPaula/js-developer-portfolio",
+      "name": "Nacional Gás Butano",
+      "url": "https://www.minhacontanacionalgas.com.br/",
       "github": true
     }
   ],
