@@ -5,7 +5,7 @@ header {
     position: relative;
 }
 
-header::before {
+/* header::before {
     content: '';
     display: inline-block;
     background-image: url('/portifolio_profissional/assets/img/icons/header.svg');
@@ -17,7 +17,7 @@ header::before {
     top: 1rem;
     right: 1rem;
     cursor: pointer;
-}
+} */
 
 .photo{
     width: 200px;
