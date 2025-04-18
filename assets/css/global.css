@@ -4,7 +4,8 @@
 }
 
 body {
-    background-color: #000;
+    background: linear-gradient(155deg, #FF10A3, #5D0099);
+
     color: #fff;
 }
 
@@ -29,7 +30,7 @@ body {
     border: 1px solid #fff;
 }
 
-.main::before, 
+/* .main::before, 
 .main::after {
     content: '';
     background-image: url('/portifolio_profissional/assets/img/background.svg');
@@ -42,7 +43,7 @@ body {
     width: 140vw;
     height: 100vh;
     z-index: -1;
-}
+} */
 
 .main::after {
     content: '';
