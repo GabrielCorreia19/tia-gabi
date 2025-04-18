@@ -29,5 +29,14 @@ footer .ContainerWpp {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+
+  &:hover {
+    text-decoration: underline;
+  }
+
+  a {
+    display: contents;
+  }
 }
 
